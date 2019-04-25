@@ -8,14 +8,14 @@ package txauthor
 import (
 	"errors"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
+	"github.com/Divicoin/btcd/chaincfg"
+	"github.com/Divicoin/btcd/txscript"
+	"github.com/Divicoin/btcd/wire"
+	"github.com/Divicoin/btcutil"
+	"github.com/Divicoin/btcwallet/wallet/txrules"
 
-	h "github.com/btcsuite/btcwallet/internal/helpers"
-	"github.com/btcsuite/btcwallet/wallet/internal/txsizes"
+	h "github.com/Divicoin/btcwallet/internal/helpers"
+	"github.com/Divicoin/btcwallet/wallet/internal/txsizes"
 )
 
 // InputSource provides transaction inputs referencing spendable outputs to

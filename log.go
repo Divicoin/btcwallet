@@ -10,15 +10,15 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/Divicoin/btcd/rpcclient"
 	"github.com/btcsuite/btclog"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/rpc/legacyrpc"
-	"github.com/btcsuite/btcwallet/rpc/rpcserver"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/Divicoin/btcwallet/chain"
+	"github.com/Divicoin/btcwallet/rpc/legacyrpc"
+	"github.com/Divicoin/btcwallet/rpc/rpcserver"
+	"github.com/Divicoin/btcwallet/wallet"
+	"github.com/Divicoin/btcwallet/wtxmgr"
 	"github.com/jrick/logrotate/rotator"
-	"github.com/lightninglabs/neutrino"
+	"github.com/Divicoin/neutrino"
 )
 
 // logWriter implements an io.Writer that outputs to both standard output and

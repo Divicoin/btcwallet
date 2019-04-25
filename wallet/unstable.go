@@ -6,9 +6,9 @@
 package wallet
 
 import (
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/Divicoin/btcd/chaincfg/chainhash"
+	"github.com/Divicoin/btcwallet/walletdb"
+	"github.com/Divicoin/btcwallet/wtxmgr"
 )
 
 type unstableAPI struct {

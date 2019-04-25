@@ -5,12 +5,12 @@
 package wallet
 
 import (
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/Divicoin/btcd/txscript"
+	"github.com/Divicoin/btcd/wire"
+	"github.com/Divicoin/btcutil"
+	"github.com/Divicoin/btcwallet/chain"
+	"github.com/Divicoin/btcwallet/waddrmgr"
+	"github.com/Divicoin/btcwallet/wtxmgr"
 )
 
 // RescanProgressMsg reports the current progress made by a rescan for a

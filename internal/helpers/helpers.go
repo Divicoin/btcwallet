@@ -7,8 +7,8 @@
 package helpers
 
 import (
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/Divicoin/btcd/wire"
+	"github.com/Divicoin/btcutil"
 )
 
 // SumOutputValues sums up the list of TxOuts and returns an Amount.

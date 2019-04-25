@@ -24,14 +24,14 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/votingpool"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/Divicoin/btcd/chaincfg"
+	"github.com/Divicoin/btcd/txscript"
+	"github.com/Divicoin/btcutil"
+	"github.com/Divicoin/btcwallet/votingpool"
+	"github.com/Divicoin/btcwallet/waddrmgr"
+	"github.com/Divicoin/btcwallet/walletdb"
+	_ "github.com/Divicoin/btcwallet/walletdb/bdb"
+	"github.com/Divicoin/btcwallet/wtxmgr"
 )
 
 var (

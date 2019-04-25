@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/Divicoin/btcd/chaincfg"
+	"github.com/Divicoin/btcd/txscript"
+	"github.com/Divicoin/btcutil"
+	"github.com/Divicoin/btcwallet/walletdb"
+	"github.com/Divicoin/btcwallet/wtxmgr"
 )
 
 const eligibleInputMinConfirmations = 100

@@ -8,10 +8,10 @@ package wallet
 import (
 	"errors"
 
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/Divicoin/btcd/txscript"
+	"github.com/Divicoin/btcutil"
+	"github.com/Divicoin/btcwallet/waddrmgr"
+	"github.com/Divicoin/btcwallet/walletdb"
 )
 
 // MakeMultiSigScript creates a multi-signature script that can be redeemed with
